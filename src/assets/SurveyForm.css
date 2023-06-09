@@ -1,0 +1,85 @@
+
+  /* Welcome screen */
+  .welcome-screen {
+    margin-top: 200px;
+  }
+  /* Survey Form */
+  .question-container {
+    margin: 3rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-container h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .question-container h6 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .button-container button {
+    min-width: 100px;
+  }
+  
+  .text-answer-input {
+    margin-top: 20px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .question-container {
+      padding: 10px;
+    }
+  
+    .question-container h5 {
+      font-size: 1rem;
+    }
+  
+    .question-container h6 {
+      font-size: 0.9rem;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    .button-container button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+/* thank you Screen */
+.thank-you {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .thank-you h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .thank-you p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
